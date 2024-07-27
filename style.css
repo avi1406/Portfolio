@@ -1,0 +1,875 @@
+/* This is Css for project 1 */
+@font-face {
+/*     font-family: league; */
+    src: url(fonts/LeagueSpartan-Bold.otf);
+    font-family: Josefin Sans;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.checkbtn{
+    display: none;
+}
+
+body{
+    background-color: #1c1d25 ;
+    /* z-index: -10; */
+    
+}
+
+li,a {
+    /* color: #b0b2c3; */
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    /* background-color: #1c1d25 ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5% 3px 5%;
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+.logo{
+    cursor: pointer;
+    height: 71px;
+    width: 109px;
+    margin: 0px 59px;
+    padding: 0px 0px;
+    transition: all 1s ease ;
+}   
+.logo:hover{
+    transform: scale(1.05);
+    
+} 
+
+.nav-links{
+    list-style: none;
+    
+}
+
+.nav-links li{
+    color: #b0b2c3;
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 2px 4px;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all 0.35s ease 0s;
+
+}
+
+/* .nav-links li a {
+    transition: all 0.35s ease 0s;
+} */
+
+#resume {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 44px;
+    width: 135px;
+    background-color: #3bcbd3;
+    color: white;
+    margin: 3px 13px 2px 75px;
+    padding: 7px 2px 2px 2px;
+    border: 2px solid white;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+}
+
+
+.nav-links li a:hover{
+    /* padding: 0px 20px;
+    margin: 2px 12px; */
+    /* border: 2px solid white; */
+    color:white;
+    transition: all 0.35s ease 0s;
+    text-shadow: 0px 0px 2px white;
+
+}
+
+#resume:hover{
+    background-color: #22c8d1;
+    box-shadow: 1px 1px 5px white;
+    /* text-shadow: 1px 1px 20px white; */
+
+}
+
+
+/* this is section */
+
+/* .about{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 20px 2px 200px;
+    height: 550px;
+    align-items: center;
+   
+    
+   
+}*/ 
+.about{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2px 20px 2px 20px;
+    height: 79vh;
+    align-items: center;
+    /* border: 2px solid red ; */
+    
+   
+}
+
+/* section::before{
+    content: '';
+    position: absolute;
+    background: url(images/bgnew.png) no-repeat center center/cover;
+    z-index: -1;
+    height: 228px;
+    width: 446px;
+    margin: 1px 5px 101px 396px;
+    padding: 40px 7px;
+} */
+section::before{
+    content: '';
+    position: absolute;
+    background: url(bgnew.png) no-repeat center center/cover;
+    z-index: -1;
+    height: 218px;
+    width: 401px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 8px 5px 96px 578px;
+    padding: 40px 7px;
+}
+
+
+.info h1{
+    font-style: italic;
+    font-size: 70px;
+    letter-spacing: 1px;
+    color: white;
+    margin: 14px 10px 6px 186px;
+    padding: 2px 2px;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+    font-weight: bolder;
+    
+}
+
+
+.info p{
+    color: white;
+    font-style: italic;
+    font-size: 19px;
+    margin: 1px 10px 1px 186px;
+    padding: 0px 1px;
+}
+
+
+.info button{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 44px;
+    width: 125px;
+    background-color: #ef4d3f;
+    color: white;
+    margin: 30px 10px 30px 186px;
+    padding: 5px 2px 2px 2px;
+    border: 2px solid white;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+
+}
+
+.info button:hover{
+    background-color: #ef4d3f;
+    box-shadow: 1px 1px 5px white;
+    /* text-shadow: 1px 1px 20px white; */
+
+}
+
+
+
+
+
+
+
+
+
+/* socialize */
+
+.links{
+    height: 267px;
+    width: 50px;
+}
+
+li{
+    list-style: none;
+
+}
+.btn {
+    /* width: 90px;
+    height: 90px; */
+    font-size: 33px;
+}
+
+.links ul li a i{
+    margin: 2px 4px 13px 9px;
+    padding: 2px 3px 3px 4px;
+    color: rgb(176, 178, 195);
+    transition: all 0.2s ease ;;
+}
+.links ul li a i:hover{
+    color:white;
+    transition: all 0.35s ease 0s;
+    text-shadow: 0px 0px 1px white;
+    transform: scale(1.3);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* scrolldown */
+
+.scrolldown{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#works{
+    /* font-family: league; */
+    font-size: 17px;
+    color: white;
+    font-weight: lighter ;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#arrow{
+    color: #ef4d3f;
+    font-size: 40px;
+    margin-bottom: 14px;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 2ndpage */
+
+article{
+    background-color: #efefef ;
+    border: 0.01px solid #1c1d25;
+
+}
+
+.title1{
+    text-align: center;
+    margin: 70px 2px 50px 2px;
+    padding: 2px 2px 2px 2px;
+    font-size: 32px;
+    color: #4a4a4a;
+    /* font-family: league; */
+    font-family: Josefin Sans;
+    font-weight: revert;
+}
+.title2{
+    text-align: center;
+    margin: 90px 2px 0px 2px ;
+    padding: 2px 2px 2px 2px ;
+    font-size: 32px;
+    color: #4a4a4a;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+    font-weight: revert;
+
+}
+
+.aboutandcontact{
+    /* background-color: #efefef ; */
+    /* height: 680px; */
+    height: auto;
+
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all 1s ease ;
+}
+/* .aboutandcontact:hover{
+    transform: scale(1.02);
+} */
+
+/* about me section */
+
+#aboutme{
+    background-color: hsl(0deg 0% 95% / 97%);
+    height: 600px;
+    width: 580px;
+    font-family: league;
+    margin: 0px;
+    padding: 115px 90px 84px 90px;
+    color: white ;
+    box-shadow: 0 -1px 64px 0 #040407;
+    z-index: 1;   
+}
+
+#aboutme h2{
+    font-size: 24px;
+    margin: 0px 0px 10px 0px;
+/*     font-family: league; */
+    font-family: 'Spartan', sans-serif;
+    font-weight: revert;
+}
+#aboutme u{
+    color: #ef4d3f;
+}
+
+
+#skill{
+    font-size: 14px;
+    /* font-family: 'Spartan', sans-serif; */
+    margin: 0px 0px 25px 0px;
+    color: #848080;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    
+}
+#myself{
+    font-size: 17px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Spartan', sans-serif;
+    margin: 0px 0px 25px 0px;
+    color: #242424;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #615656;
+}
+
+strong{
+    color: #ef4d3f;
+}
+
+
+
+/* lets talk section */
+
+#letstalk h2{
+    font-size: 22px;
+    margin: 0px 0px 10px 0px;
+    color: #dadada;
+/*     font-family: league;*/
+    font-family: Josefin Sans;
+/*     font-weight: revert; */
+}
+
+
+#letstalk{
+    background-color: rgb(28 29 37);
+    height: 600px;
+    width: 580px;
+    /* border: 1px solid black; */
+    /* margin: 20px 20px 20px 0px; */
+    margin: 0px;
+    padding: 100px 90px 84px 90px;
+    /* padding: 12px 12px 12px 12px; */
+    /* font-family: league; */
+    box-shadow: -1px -1px 64px #040407;
+}
+
+#invite{
+    font-size: 14px;
+    /* font-family: 'Spartan', sans-serif; */
+    margin: 0px 0px 25px 0px;
+    color:  #dadada;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    
+}
+
+.tech{
+  justify-content: start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0px 0px 40px 0px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.icons img{
+  height: 60px;
+  width: 60px;
+}
+
+.tech p{
+/*     font-size: 15px; */
+  padding : 2px 2px;
+   color: #dadada;
+/*     font-family: league;*/
+    font-family: Josefin Sans;
+    font-weight: revert;
+}
+
+#letstalk a{
+/*   padding : 2px 2px; */
+   color: #dadada;
+/*     font-family: league;*/
+    font-family: Josefin Sans;
+    font-weight: revert;
+}
+
+.coding{
+  margin-bottom: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.mail{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+
+
+
+
+
+/* projects */
+
+
+.projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#num{
+    display: inline-block;
+    font-size: 130px;
+/*     font-family: league; */
+    font-family: system-ui;
+    font-weight: revert;
+}
+
+h3{
+    color: #4a4a4a;
+    /* display: inline-block; */
+    /* text-shadow: 1px 1px 10px black; */
+}
+
+
+.project1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    flex-direction: row;
+}
+
+
+
+#details1{
+    height: 430px;
+    width: 800px;
+    background-color: rgb(28 29 37);
+    display: inline-block;
+    margin: 50px 20px 20px 70px;
+    padding: 40px 90px;
+    /* background-color: blue; */
+    box-shadow: 1px 1px 40px black;
+    transition: all 1s ease ;
+    border-radius: 20px;
+}
+
+/* #project1::before{
+    
+    background-color: #213a6c;
+    content: '';
+    position: absolute;
+    background-color: blue;
+    z-index: 0;
+    opacity: 0.1;
+    height: 218px;
+    width: 401px;
+    margin: 8px 5px 96px 578px;
+    padding: 40px 7px;
+
+} */
+.project2{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    flex-direction: row;
+}
+
+#details2, #details4{
+    height: 430px;
+    width: 800px;
+    /* background: url('images/probg.jpg') no-repeat center center/cover; */
+    background-color: hsl(0deg 0% 95% / 97%);;
+    display: inline-block;
+    margin: 130px 70px 20px 20px;
+    padding: 40px 90px;
+    /* background-color: blue; */
+    box-shadow: 1px 1px 40px black;
+    transition: all 1s ease ;
+  border-radius: 20px;
+}
+
+.project3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin: 20px;
+    flex-direction: row;
+  
+}
+
+#details3{
+    height: 430px;
+    width: 800px;
+    /* background: url('images/probg.jpg') no-repeat center center/cover; */
+    background-color: rgb(28 29 37);
+    display: inline-block;
+    margin: 130px 20px 20px 70px;
+    padding:40px 90px;
+    box-shadow: 1px 1px 40px black;
+    /* background-color: blue; */
+    transition: all 1s ease ;
+  border-radius: 20px;
+}
+
+#details1 h1, #details3 h1{
+    font-size: 40px;
+    font-family: Josefin Sans;
+    font-weight: revert;
+    margin-top: 2px;
+    padding: 2px;
+    color: white;
+}
+
+#details2 h1, #details4 h1{
+    font-size: 40px;
+    font-family: Josefin Sans;
+    font-weight: revert;
+    margin-top: 2px;
+    padding: 2px;
+    color: black;
+}
+
+#details1 p, #details3 p{
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 2px;
+    color: #dadada;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#details2 p, #details4 p{
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 2px;
+    color: #4a4a4a;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#details1 button, #details3 button{
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    height: 44px;
+    width: 155px;
+    background-color: #ef4d3f;
+    color: white;
+    margin-top: 40px;
+    padding: 5px 2px 2px 2px;
+    border: 2px solid white;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+}
+
+#details2 button , #details4 button{
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    height: 44px;
+    width: 155px;
+    background-color: #ef4d3f;
+    color: white;
+    margin-top: 40px;
+    padding: 5px 2px 2px 2px;
+    border: 2px solid black;
+/*     font-family: league; */
+    font-family: Josefin Sans;
+    
+}
+
+
+#details1 button:hover, #details3 button:hover{
+    background-color: #ef4d3f;
+    box-shadow: 1px 1px 5px white;
+
+}
+#details2 button:hover, #details4 button:hover{
+    background-color: #ef4d3f;
+    box-shadow: 1px 1px 5px black;
+}
+
+#details1:hover, #details2:hover, #details3:hover, #details4:hover{
+    transform: scale(1.02);
+    /* transition: all 1s ease ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.to-top{
+    cursor: pointer;
+    height: 95px;
+    width: 146px;
+    margin-bottom: 20px;
+    padding: 2px 2px 2px 2px;
+}   
+
+.footer-links{
+    display: flex;
+    
+}
+
+.footer-links a{
+/*     font-family: league; */
+    font-size: 20px;
+    margin: 2px 2px;
+    padding: 15px 25px;
+    color: white;
+    font-family: Josefin Sans;
+    font-weight: revert;
+}
+
+footer p{
+    font-size: 15px;
+    color: #b0b2c3;
+    margin-top: 22px;
+}
+
+
+
+/* End of this css as of now <3 */
+
+
+@media (min-width: 800px) and (max-width: 980px){
+    header{
+        padding: 3px 50px 3px 5px;
+    }
+    
+    .logo{
+        height: 71px;
+        width: 109px;
+        margin: 0px 50px;
+    }   
+
+    .info h1{
+        font-size: 50px;
+        margin: 7px 10px 5px 70px;
+    }
+    .info p{
+        font-size: 17px;
+        margin: 5px 10px 10px 71px;
+    }
+    .info button{
+        font-size: 13px;
+        margin: 13px 10px 7px 70px;
+        padding: 5px 2px 2px 2px;
+        height: 40px;
+        width: 115px;
+    }
+
+    .btn{
+        font-size: 31px;
+    }
+    
+
+    section::before{
+        height: 184px;
+        width: 249px;
+        margin: 16px 0px 90px 10px;
+        right: 250px;
+        padding: 36px 16px;
+    }
+
+    /* #details1{
+        margin: 35px 0px 20px 70px;
+    }
+    #details2{
+        margin: 85px 70px 20px 0px;
+        
+    }
+    #details3{
+        margin: 85px 0px 85px 70px;
+    }  */
+    #details1{
+        height: 375px;
+        width: 720px;
+        margin: 40px 0px 80px 45px;
+        padding: 40px 90px;
+        box-shadow: 1px 1px 40px black;
+    }
+    #details2, #details4{
+        height: 375px;
+        width: 720px;
+        margin: 20px 45px 80px 0px;
+        padding: 40px 90px;
+        box-shadow: 1px 1px 40px black;
+    }
+    #details3{
+        height: 375px;
+        width: 720px;
+        margin: 20px 0px 80px 45px;
+        padding: 40px 90px;
+        box-shadow: 1px 1px 40px black;
+    } 
+    #num{
+        display: none;
+    }
+
+    
+}
+
+
+/* for width 980-1175px */
+
+@media (min-width: 980px) and (max-width: 1175px){
+    header{
+        padding: 3px 5% 3px 5px;
+    }
+    
+    .logo{
+        height: 71px;
+        width: 109px;
+        margin: 0px 50px;
+    }   
+
+    .info h1{
+        font-size: 62px;
+        margin: 7px 10px 5px 70px;
+    }
+    .info p{
+        font-size: 19px;
+        margin: 7px 10px 10px 71px;
+    }
+    .info button{
+        font-size: 15px;
+        margin: 20px 10px 7px 70px;
+        padding: 5px 2px 2px 2px;
+        height: 44px;
+        width: 125px;
+    }
+
+    section::before{
+        height: 218px;
+        width: 401px;
+        /* margin: 8px 5px 96px 578px; */
+        right: 250px;
+        padding: 40px 7px;
+    }
+
+    #details1{
+        margin: 35px 0px 20px 70px;
+    }
+    #details2, #details4{
+        margin: 85px 70px 20px 0px;
+        
+    }
+    #details3{
+        margin: 85px 0px 85px 70px;
+    } 
+
+    #num{
+        display: none;
+    }
+
+    
+}
+

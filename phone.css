@@ -1,0 +1,396 @@
+
+/* css for phone screen 320px-600px */
+
+
+.navbar{
+    padding: 2px 2px 2px 2px;
+    
+}
+
+
+.logo{
+    cursor: pointer;
+    height: 71px;
+    width: 109px;
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s ease ;
+}   
+
+
+
+#resume{
+    display: none;
+}
+
+.nav-links li{
+    color: white;
+    display: inline-block;
+    padding: 0px 7px; 
+    margin: 2px 4px; 
+    font-size: 14px;
+    /* justify-content: right; */
+}
+
+
+.about{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    margin: 2px 20px 2px 20px;
+    height: 73.5vh;
+    align-items: center;
+    /* border: 2px solid red ; */
+    
+   
+}
+
+
+section::before{
+    content: '';
+    position: absolute;
+    background: url(images/bgnew.png) no-repeat center center/cover;
+    z-index: -1;
+    height: 174px;
+    width: 260px;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0px 87px 57px;
+    /* padding: 40px 7px; */
+}
+
+
+.info{
+    align-items: center;
+}
+
+
+.info h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 7px 10px 6px 7px;
+    padding: 2px 2px;
+    
+}
+
+.info p{
+    
+    font-size: 20px;
+    margin: 1px 10px 1px 8px;
+    
+}
+
+
+.info button{
+    font-size: 14px;
+    margin: 21px 10px 30px 7px;
+    padding: 5px 2px 2px 2px;
+}
+
+/* socialize */
+
+.links{
+    height: 0px;
+    width: 0px;
+}
+
+li{
+    list-style: none;
+
+}
+.btn {
+    /* width: 90px;
+    height: 90px; */
+    font-size: 0px;
+}
+
+i{
+    margin: 2px 4px 13px 9px;
+    padding: 2px 3px 3px 4px;
+    color: rgb(176, 178, 195);
+    transition: all 0.2s ease ;;
+}
+i:hover{
+    color:white;
+    transition: all 0.35s ease 0s;
+    text-shadow: 0px 0px 1px white;
+    transform: scale(1.3);
+
+}
+
+#arrow{
+    margin-bottom: 20px;
+    
+}
+
+
+.title1{
+    margin: 50px 2px 47px 2px ;
+    font-size: 24px;
+}
+
+.aboutandcontact{
+    transition: none;
+}
+.aboutandcontact:hover{
+    transform: none;
+}
+
+#aboutme{
+    background-color: hsl(0deg 0% 95% / 97%);
+    padding: 40px 40px 40px 40px;
+    box-shadow: 0px 0px 0px black;
+    z-index: 1; 
+    transition: none;  
+    height: auto;
+}
+
+#aboutme h2{
+    font-size: 22px;
+    margin: 0px 0px 7px 0px;
+}
+
+#skill{
+    font-size: 14px;
+    /* font-family: 'Spartan', sans-serif; */
+    margin: 0px 0px 25px 0px;
+    letter-spacing: 0.5px;
+    
+}
+#myself{
+    font-size: 15px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Spartan', sans-serif;
+    margin: 0px 0px 25px 0px;
+    color: #242424;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #615656;
+}
+
+#letstalk h2{
+    font-size: 22px;
+    margin: 0px 0px 7px 0px;
+    
+}
+
+#letstalk{
+    background-color: rgb(28 29 37);
+    height: auto;
+    /* width: 100%; */
+    margin: 0px;
+    padding: 65px 50px 60px 50px;
+    box-shadow: none;
+}
+
+#invite{
+    font-size: 14px;
+    /* font-family: 'Spartan', sans-serif; */
+    margin: 0px 0px 22px 0px;
+    color:  #dadada;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+    
+}
+
+
+.submit{
+    font-size: 13px;
+    height: 43px;
+    width: 155px;
+    margin-top: 40px;
+    padding: 5px 2px 2px 2px;
+}
+
+
+h3{
+    display: none;
+}
+
+.title2{
+    margin: 60px 2px 45px 2px ;
+    font-size: 24px;
+}
+
+.project{
+    display: flex;
+
+}
+
+.project1{
+    /* flex-wrap: wrap; */
+    margin: 2px;
+    box-sizing: border-box;
+}
+.project2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 2px;
+}
+.project3{
+    
+    /* flex-wrap: wrap; */
+    margin: 2px;
+}
+
+#details1{
+    height: 350px;
+    width: auto;
+    margin: 0px 0px 80px 0px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 40px black;
+}
+#details2, #details4{
+    height: 350px;
+    width: auto;
+    margin: 20px 0px 80px 0px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 40px black;
+}
+#details3{
+    height: 350px;
+    width: auto;
+    margin: 20px 0px 80px 0px;
+    padding: 10px 40px;
+    box-shadow: 1px 1px 40px black;
+}
+
+#details1 h1, #details2 h1, #details3 h1, #details4 h1{
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 2px;
+}
+
+#details1 p, #details2 p, #details3 p, #details4 p{
+    font-size: 14px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+#details1 button,  #details2 button, #details3 button, #details4 button{
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    height: 34px;
+    width: 110px;
+    background-color: #ef4d3f;
+    color: white;
+    margin-top: 20px;
+    padding: 5px 2px 2px 2px;
+    font-family: Josefin Sans;
+    font-weight: revert;
+}
+
+
+
+footer{
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.to-top{
+    height: 80px;
+    width: 122px;
+    margin-bottom: 15px;
+    padding: 2px 2px 2px 2px;
+}   
+
+.footer-links{
+    display: flex;
+    
+}
+
+.footer-links a{
+    margin: 2px 2px;
+    padding: 0px 8px;
+    font-size: 14px;
+}
+
+footer p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* @media (max-width:373px){
+    section::before{
+    right: 10px;
+    
+    /* padding: 40px 7px; */
+
+
+    /* .info{
+        left: 8px;
+    } */
+
+@media (min-width: 300px) and (max-width: 342px){
+
+    .logo{
+        height: 55px;
+        width: 87px;
+    }   
+
+    .nav-links li{
+        font-size: 13px;
+    }
+
+    .info h1{
+        font-size: 32px;
+        margin: 7px 10px 5px 7px;
+    }
+    .info p{
+        font-size: 16px;
+    }
+    .info button{
+        font-size: 13px;
+        margin: 15px 10px 7px 7px;
+        padding: 5px 2px 2px 2px;
+        height: 38px;
+        width: 111px;
+    }
+    section::before{
+        height: 220px;
+    width: 240px;
+    margin: 16px 0px 73px 15px;
+    padding: 0px;
+    }
+
+    #arrow{
+        margin-bottom: 10px;
+        font-size: 35px;    
+    }
+    #works{
+    
+    font-size: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
